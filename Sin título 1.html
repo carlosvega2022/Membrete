@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Recortar Imagen</title>
+    <style>
+		@page { size: 21.59cm 27.94cm; margin-left: 3cm; margin-right: 3cm; margin-top: 1.25cm; margin-bottom: 2.54cm}
+		p { color: #000000; line-height: 115%; orphans: 2; widows: 2; margin-bottom: 0cm; direction: ltr; background: transparent }
+		p.western { font-family: "Calibri", sans-serif; font-size: 12pt; so-language: es-CO }
+		p.cjk { font-family: "Calibri", sans-serif; font-size: 12pt }
+		p.ctl { font-family: "Times New Roman", serif; font-size: 12pt; so-language: ar-SA }
+		#header, #footer { width: 100%; text-align: center; }
+		#header img, #footer img { width: auto; height: auto; }
+		#content { margin-top: 0cm; margin-bottom: 0cm; }
+		.header {
+            width: 100%; /* Ancho del contenedor */
+            overflow: hidden; /* Oculta partes de la imagen fuera del contenedor */
+            position: relative;
+        }
+        .footer {
+            width: 100%; /* Ancho del contenedor */
+            overflow: hidden; /* Oculta partes de la imagen fuera del contenedor */
+            position: relative;
+        }
+        .footer img {
+            position: absolute;
+            top: -50px; /* Ajusta según necesites */
+            left: 0px; /* Ajusta según necesites */
+            width: 500px; /* Ancho de la imagen original */
+            height: auto; /* Mantén la proporción de la imagen */
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <img src="Sin%20t%C3%ADtulo%201_html_6e146902.png" alt="Imagen recortada">
+    </div>
+	<div id="footer">
+		<img src="Sin%20t%C3%ADtulo%201_html_fa60a9ed.png" alt="Pie de página"/>
+	</div>
+</body>
+</html>
